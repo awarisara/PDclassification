@@ -3,7 +3,7 @@
 An audio signal was converted to a spectrogram by calculation Short-Time Fourier Transform in order to classify participants with and without Parkinson's disease through convolutional neural network in deep learning.
 
 # Dataset
-We uses voice dataset from mPower study. There are 65,022 audio files from PD and healthy controls participants
+We uses voice dataset from mPower study. There are 65,022 audio files from PD and healthy control participants
 ## Dataset Availability Statement
 Our dataset contributed by users of the Parkinson mPower mobile application as part of the mPower study developed by Sage Bionetworks and described in Synapse (doi:10.7303/syn4993293). Since the information used in this research is not accessible to all researchers. Please contact the corresponding author for more information. 
 
