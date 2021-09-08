@@ -1,4 +1,4 @@
-# Parkinson's Disease classification
+# Parkinson's Disease Classification by Using Voice Dataset
 
 An audio signal was converted to a spectrogram by calculation Short-Time Fourier Transform in order to classify participants with and without Parkinson's disease through convolutional neural network in deep learning.
 
