@@ -8,7 +8,7 @@ An audio signal was converted to a spectrogram by calculation Short-Time Fourier
 - Ek is used to determine the normality of segment of the audio. The Ek within one standard deviation of the mean is considered normal, the data is 1-second normal segment which is two consecutive normal segments.
 - After we selected the normal segments, each segment was converted to spectrogram by using STFT calculation since a spectrogram is magnitude of STFT and it visualizes in log-scale (decibels). ![dB_equaition](https://latex.codecogs.com/png.latex?Amplitude%20%28dB%29%20%3D%2010%20%5Ctimes%20log%7B%28%7CSTFT%7C%29%7D%5E2)
 - Next, the log-scale spectrogram is normalized to 0 to 255 like an image.
-![signal_image](https://github.com/awarisara/PDclassification/blob/master/signal.png?raw=true)
+![signal_image](https://github.com/awarisara/PDclassification/blob/master/signal.jpg?raw=true)
 ## Training dataset
 - Finally, the 1 second spectrogram takes into CNN models (LeNet-5, VGGNet-16, and ResNet-50)
 
