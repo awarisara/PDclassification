@@ -13,7 +13,7 @@ An audio signal was converted to a spectrogram by calculation Short-Time Fourier
   The one standard deviation of mean is defined:
   ![std](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csigma%20%3D%20%5Csqrt%20%7B%5Cfrac%20%7B%5Csum%5Climits_%7Bi%3D1%7D%5EN%20%7B%28E_i-E_%7Bmean%7D%29%5E2%7D%7D%7BN%7D%7D)
   
-- After we selected the normal segments, each segment was converted to spectrogram by using STFT calculation since a spectrogram is magnitude of STFT and it visualizes in log-scale (decibels). ![dB_equaition](https://latex.codecogs.com/png.latex?Amplitude%20%28dB%29%20%3D%2010%20%5Ctimes%20log%7B%28%7CSTFT%7C%29%7D%5E2)
+- After we selected the normal segments, each segment was converted to spectrogram by using STFT calculation (Scipy library in Python) since a spectrogram is magnitude of STFT and it visualizes in log-scale (decibels). ![dB_equaition](https://latex.codecogs.com/png.latex?Amplitude%20%28dB%29%20%3D%2010%20%5Ctimes%20log%7B%28%7CSTFT%7C%29%7D%5E2)
 - Next, the log-scale spectrogram is normalized to 0 to 255 like an image.
 ![signal_image](https://github.com/awarisara/PDclassification/blob/master/signal.jpg?raw=true)
 ## Training dataset
